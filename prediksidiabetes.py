@@ -43,7 +43,7 @@ if submitted:
     ]])
 
     # Muat model (ubah path sesuai lokasi model kamu)
-    model = joblib.load("model_diabetes.pkl")
+    model = joblib.load("model_decision_tree.pkl")
 
     # Prediksi
     pred = model.predict(input_data)[0]
